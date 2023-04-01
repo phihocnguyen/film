@@ -1,7 +1,7 @@
 import React from 'react'
 import {Route, Routes } from 'react-router-dom'
 import AllMovie from '../components/AllMovie/AllMovie.jsx'
-import MovieDetail from './pages/detail/MovieDetail.jsx'
+import MovieDetail from '../pages/detail/MovieDetail.jsx'
 import Home from '../pages/Home.jsx'
 
 

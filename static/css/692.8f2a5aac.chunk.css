@@ -1,2 +1,0 @@
-.modal{background-color:rgba(0,0,0,.7);cursor:pointer;height:100vh;left:0;opacity:0;position:fixed;top:0;transition:all .3s linear;visibility:hidden;width:100vw;z-index:99999}.modal.active{opacity:1;visibility:visible}.modal__content{background-color:#fff;display:flex;left:50%;padding:12px;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:1000px}.swiper-slide{width:20%}.swiper{height:100%;width:100%}.swiper-wrapper{display:flex}
-/*# sourceMappingURL=692.8f2a5aac.chunk.css.map*/

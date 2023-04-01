@@ -1,0 +1,55 @@
+.container{
+    background-color: #0f0f0f;
+}
+
+
+.moviedetail-banner {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, #0f0f0f, rgba(#000, 0));
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#000, 0.6);
+    }
+}
+
+.moviedetail-content{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -200px;
+    max-width: 1200px;
+    padding: 0 72px;
+    z-index: 9999;
+    &__poster {
+        height: 500px;
+        width: 300px;
+        &__image{
+            border-radius: 25px;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    &__info{
+        flex: 1;
+    }
+}
